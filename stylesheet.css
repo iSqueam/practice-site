@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: red;
+}
+
+
+.main {
+    background-color: black;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    max-width: 100%;
+}
+
+.main hr {
+    border: 1px solid red;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: black;
+    justify-content: center;
+    border: 0 auto;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.navbar a {
+    float: center;
+    display: block;
+    font-size: 18px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    border: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 1%;
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+.navbar :hover {
+    float: center;
+    display: block;
+    max-width: 100%;
+    font-size: 18px;
+    background-color: darkgrey;
+    color: red;
+    text-align: center;
+    border: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 1%;
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+a {
+    color: red;
+}
+
+.container-top {
+    width: 100%;
+    float: center;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+.container-top p {
+    float: left;
+    width: 100%;
+    display: contents;
+    border: 0;
+    font-size: 16px;
+    background-color: black;
+    color: red;
+    text-align: left;
+}
+
+.container-bottom {
+    width: 100%;
+    float: center;
+    display: block;
+    font-size: 16px;
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+.container-wide {
+    display: inline;
+    width: 100%;
+}
+
+.container-child {
+    display: inline-block;
+    text-align: center;
+    width: 39%;
+    height: 40%;
+    padding: 5%;
+    background-color: black;
+}
+
+
+.container-child h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+    background-color: black;
+    color: red;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-child p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    background-color: black;
+    color: red;
+}
+/** Image **/
+
+img {
+    width: 80%;
+    justify-content: center;
+}
+
